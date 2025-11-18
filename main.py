@@ -2,11 +2,12 @@ import aluno as a;
 import turma as t;
 
 alunos = []
-alunos.append(a.Aluno('Fabio', 'Teixeira', 11));
-alunos.append(a.Aluno('Fabiano', 'Teixeira', 7));
-alunos.append(a.Aluno('Melissa', 'Teixeira', 8));
-alunos.append(a.Aluno('Rafael', 'Teixeira', 9));
-alunos.append(a.Aluno('Angela', 'Teixeira', 6));
+alunos.append(a.Aluno('Cesar', 'Arlindo', 12));
+alunos.append(a.Aluno('Fabiano', 'Junior', 8));
+alunos.append(a.Aluno('Lucia', 'Abreu', 7));
+alunos.append(a.Aluno('Ana', 'Correa', 2));
+alunos.append(a.Aluno('Pedro', 'Rocha', 5));
+alunos.append(a.Aluno('Arlindo', 'Menezes', -3));
 
 turmaObject = t.Turma();
 turmaObject.cadastrarAlunos(alunos);
