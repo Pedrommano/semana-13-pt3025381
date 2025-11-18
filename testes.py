@@ -7,12 +7,12 @@ class turmaTest(unittest.TestCase):
   def setUp(self):
     print('Teste', self._testMethodName, 'sendo executado...');
     self.alunos = [];
-    self.alunos.append(a.Aluno('Fabio', 'Teixeira', 11));
-    self.alunos.append(a.Aluno('Fabiano', 'Teixeira', 7));
-    self.alunos.append(a.Aluno('Melissa', 'Teixeira', 8));
-    self.alunos.append(a.Aluno('Rafael', 'Teixeira', 9));
-    self.alunos.append(a.Aluno('Angela', 'Teixeira', 6));
-    self.alunos.append(a.Aluno('Angela', 'Teixeira', -1));    
+    self.alunos.append(a.Aluno('Cesar', 'Arlindo', 12));
+    self.alunos.append(a.Aluno('Fabiano', 'Junior', 8));
+    self.alunos.append(a.Aluno('Lucia', 'Abreu', 7));
+    self.alunos.append(a.Aluno('Ana', 'Correa', 2));
+    self.alunos.append(a.Aluno('Pedro', 'Rocha', 5));
+    self.alunos.append(a.Aluno('Arlindo', 'Menezes', -3));    
     self.turmaObject = t.Turma();
     self.turmaObject.cadastrarAlunos(self.alunos);
   
